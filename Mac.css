@@ -1,0 +1,560 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    height: 100%;
+    width: 100%;
+    position:absolute\;
+}
+.navigation_bar{
+    width: 100%;
+
+}
+
+.nav_bar{
+    width: 100%;
+    /* background-color: rgb(33, 33, 33);  */
+   
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    /* background-color: black; */
+
+   
+     top:0;  
+    position: relative;
+    
+   z-index: 0;
+}
+
+
+#logo{
+    margin-top: 1px;
+}
+
+.nav_bar a{
+    text-decoration: none;
+
+    color: rgb(33, 33, 33); 
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: smaller  ;
+    align-self: center;
+    /* color: red; */
+   
+
+
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    /* background-color: lightcoral; */
+    overflow: hidden;
+  
+    position: absolute;
+   
+    
+   
+}
+
+.buttonlist{
+   
+    margin-right: 18%;
+    margin-bottom: 5%;
+    padding-right: .5px;
+
+    top: 50%;
+    left: 50%;
+    /* border: 1px solid red; */
+}
+.sideImg{
+    height: 100%;
+    width: 66%;
+    background-image: url("imacredside.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -2%;
+    left: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontImg{
+    height: 100%;
+    width: 50%;
+    background-image: url("imacredfront.jpeg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 104%;
+    left: 58%;
+    
+}
+
+
+.backImg{
+    height: 100%;
+    width: 50%;
+
+    background-image: url("imacredback.jpeg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom:150% ;
+    left: 58.5%;
+
+    
+    
+}
+
+
+.button1{
+    background-image: url(imac-24-pink-selection-hero-202310_SW_COLOR.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    height: 38px;
+     width: 38px;
+  border-radius: 50%; 
+  
+
+
+
+
+   
+
+}
+
+.button2{
+   height: 38px;
+     width: 38px;
+  border-radius: 50%;
+margin: 5px 0px;
+    background-image: url(imac-24-green-selection-hero-202310_SW_COLOR.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.button3{
+   height: 38px;
+     width: 38px;
+  border-radius: 50%;
+margin: 5px 0px;
+    background-image: url(imac-24-yellow-selection-hero-202310_SW_COLOR.jpeg);
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.button4{
+   height: 38px;
+     width: 38px;
+  border-radius: 50%;
+margin: 5px 0px;
+    background-image: url(imac-24-orange-selection-hero-202310_SW_COLOR.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.button5{
+   height: 38px;
+     width: 38px;
+  border-radius: 50%;
+margin: 5px 0px;
+    background-image: url(imac-24-purple-selection-hero-202310_SW_COLOR.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.button6{
+   height: 38px;
+     width: 38px;
+  border-radius: 50%;
+margin: 5px 0px;
+margin: 10px 0px;
+    background-image: url(imac-24-blue-selection-hero-202310_SW_COLOR.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.text{
+    position: relative;
+    /* border: 1px red solid; */
+    top: 45%;
+    right: 9.7%;
+    font-size: 4.4vh;
+}
+
+.topBar{
+height: 43px;
+width: 100%;
+position: sticky;
+top: 0 ;
+z-index: 10;
+
+
+
+}
+
+.buyBar{
+    height: 43px;
+    width: 100%;
+    /* background-color: lightgrey; */
+    margin: auto;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+    
+  
+    
+    top: 1%;
+
+}
+.rightBox a{
+   text-decoration: none;
+   color: rgb(33, 33, 33); 
+ margin: 2.5vh;
+ font-size: 2vh;
+}
+
+.rightBox{
+    margin-left: 30vh;
+    
+}
+
+.btn-buy{
+    margin-left:3.5vh ;
+    height: 3vh;
+    width: 6.5vh;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(67, 180, 218);
+    color: white;
+}
+
+.leftBox{
+    margin-left: -5px; 
+}
+
+hr{
+    background-color:"lightgrey";
+    height: -10px;
+    
+}
+.fixedContainer{
+    height: 100vh;
+    width: 100%;
+   
+}
+
+.contain{
+   height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    
+   
+   
+    
+  
+}
+.imacHeading{
+   position: relative;
+   top: 5%;
+   font-size: 10vh;
+}
+
+ .imacImg{
+   width: 100%;
+ 
+ 
+}
+
+.imacDancing
+{
+    height: 100vh;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.textBox{
+    height: 30%;
+    width: 80%;
+   
+  
+    margin: autos;
+    display: flex;
+    
+    margin-left: 18.5%;
+    padding-top: 5vh;
+    
+    
+    flex-direction: column;
+  
+    font-size: 6vh;
+    font-weight:900;
+    overflow: hidden;
+}
+
+.words
+{
+    display:flex;
+    flex-direction: row;
+ 
+
+   
+}
+.words{
+ 
+    
+    overflow: hidden;
+    height:7vh;
+    
+
+}
+
+.innerWords span{
+    display: block;
+    margin-left: 2vh;
+
+    animation: spinWords 5s 1 linear;
+  
+}
+
+@keyframes spinWords {
+ 10%{
+    transform: translateY(-100%);
+ }
+
+ 23%{
+    transform: translateY(-210%);
+ }
+
+ 33%{
+    transform: translateY(-310%);
+
+ }
+
+ 45%{
+    transform: translateY(-400%);
+ }
+
+ 60%{
+    transform: translateY(-500%);
+
+ }
+
+ 80%{
+    transform: translateY(-600%);
+
+ }
+
+ 90%{
+    transform: translateY(-680%);
+
+ }
+ 100%{
+    transform: translateY(-800%);
+
+ }
+ 
+
+ 
+}
+
+.dancingVideo{
+  
+    /* background-color: rgb(120, 122, 13); */
+    margin-bottom:5vh ;
+    overflow: hidden;
+    
+}
+
+
+.brilliantDisplay{
+    overflow-x: hidden;
+    display: flex;
+    /* background: red; */
+    justify-content: center;
+    
+    
+}
+/* #jurasic2{
+    width: 120vh;
+} */
+
+.briliant_desg1{
+    position: absolute;
+}
+
+.jurasicImg{
+    position: absolute;
+    width: 90%;
+    top:356.7%;
+}
+
+.brilliantH1{
+    color: white;
+    position: absolute;
+    top:366.7%;
+    font-size: 13vh;
+    z-index: 10;
+}
+
+.imgChangerImac{
+  
+ overflow: hidden;
+ height: 1450px;
+}
+
+.slider_imac{
+   
+    width:60%;
+    position: relative;
+    left: 45%;
+    overflow: hidden;
+    
+}
+
+.changingImg{
+    /* background-image: url("all i mac_files/performance_gaming_screen__fr41vlhtjnee_large.jpg");
+  background-image: url("all i mac_files/performance_safari_screen__f2hmfihhf3mi_large.jpg"); */
+  background-repeat: no-repeat;
+    background-size: cover;
+    width: 814.01px;
+    height: 486px;
+    background-color: red;
+    position: absolute;
+    top: 530.1%;
+    left: 46.6%;
+    overflow: hidden;
+}
+
+
+
+
+
+.left{
+   
+    width: 45%;
+    
+    position: absolute;
+}
+
+.textBox1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textBox1 h1{
+    width: 50vh;
+}
+
+.textBox2 h1{
+    width: 50vh;
+}
+
+.textBox2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.apps{
+    
+    position: relative;
+ height: 500vh;
+    overflow-x: hidden;
+    
+}
+#top1{
+    position: absolute;
+    top: 10%;
+    right: 1%;
+}
+#top2{
+    position: absolute;
+top: 10%;
+    right: 1%;
+}
+#top3{
+    position: absolute;
+    top: 8%;
+    right: 1%;
+}
+
+#middle1{
+    position: absolute;
+    left: 0%;
+    top: 28%;
+}
+
+#middle2{
+    position: absolute;
+    left: 0%;
+    top: 28%;
+}
+
+#bottom1{
+    position: absolute;
+    top: 54%;
+    left: 0%;
+    
+}
+
+#bottom2{
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    
+}
+
+.middleText{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    font-size: 2.8vh;
+    left: 35.5%;
+    top: 29%;
+   
+}
+
+.middleText1{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    position: absolute;
+    font-size: 1.5vh;
+    left: 35.5%;
+    top: 51%;
+    color: rgb(123, 121, 121);
+}
+
+

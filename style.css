@@ -1,0 +1,824 @@
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #ededed3b;
+}
+
+.navigation_bar{
+    width: 100%;
+    position: fixed;
+    /* background-color: rgb(67, 66, 66); */
+   
+  
+}
+.nav_background{
+    background-image: url(background.png);
+   /* filter: blur(); */
+    background: rgba(61, 59, 59, 0.9);
+    
+   
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    position: fixed;
+    /* background-color: black; */
+
+
+}
+
+.nav_bar{
+    width: 100%;
+    /* background-color: rgb(33, 33, 33);  */
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    /* background-color: black; */
+
+   
+     top:0;  
+    position: relative;
+    
+   z-index: 0;
+}
+
+
+#logo{
+    margin-top: 1px;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: #ffffff9f;
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: smaller  ;
+    align-self: center;
+    /* color: red; */
+   
+
+
+}
+
+.navigation_bar .sale{
+    background-color: #1c2739;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+
+    color: white;
+}
+
+.navigation_bar .sale a{
+    color: rgb(168, 143, 1);
+    text-decoration: none;
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+
+    
+}
+
+.macbook{
+    height: 595px;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 15px;
+    padding-top: 53px;
+}
+
+.macbook .heading{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:35px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 55px;
+    
+}
+.macbook .tarif{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:30px;
+    font-style: normal;
+    width: 390px;
+    font-weight: lighter;
+    line-height: 30px;
+    
+}
+.macbook .maclinks{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.macbook .maclinks a{
+    font-size:22px;
+    text-decoration: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1472d0;
+    
+}
+
+.macbook .macvid{
+    margin-top: 50px ;
+    
+}
+
+
+
+.imac{
+    height: 790px;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 15px;
+    padding-top: 53px;
+    margin-top: 15px;
+}
+
+.imac .heading1{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:35px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 55px;
+    
+}
+.imac .tarif1{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:30px;
+    font-style: normal;
+    width: 390px;
+    font-weight: lighter;
+    line-height: 35px;
+    padding-left: 30px;
+    
+}
+.imac .imaclinks{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.imac .imaclinks a{
+    font-size:22px;
+    text-decoration: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1472d0;
+    
+}
+
+.imac .imacvid{
+    margin-bottom: 10px ;
+    
+   
+    
+}
+
+
+
+
+.iphone{
+    background-image:url(15iphone.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    height: 595px;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 15px;
+    padding-top: 53px;
+    margin-top: 15px;
+}
+
+.iphone .heading2{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:26px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 30px;
+    color: white;
+    padding-right: 25px;
+    
+}
+.iphone .tarif2{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:26px;
+    font-style: normal;
+    width: 550px;
+    font-weight: lighter;
+    line-height: 45px;
+    padding-left: 50px;
+    color: white;
+    
+}
+.iphone .iphonelinks{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.iphone .iphonelinks a{
+    font-size:22px;
+    text-decoration: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1472d0;
+    
+}
+
+.card_container{
+   height: 1740px;
+    width: 100%; 
+  background-color:   #edededa8;
+
+    
+}
+
+.item{
+    
+    /* background-color: rgb(171, 109, 228);
+    border: 1px solid black; */
+    width: 740px;
+    height: 570px;
+    
+}
+
+.panel1{
+    height: 573px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    margin-top: 10px ;
+    
+}
+
+
+
+.iphone_card1{
+    overflow:hidden;
+    background-image:url(card1img.png);
+    background-position: center;
+ 
+    background-size:100%;
+   background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    background-color:#f5f5f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 15px;
+   padding-top: 33px;
+
+}
+
+.iphone_card1 .card_heading{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:19px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 25px;
+    color: black;
+    padding-right: 25px;
+    
+}
+.iphone_card1 .card_tarif{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:22px;
+    font-style: normal;
+    width: 550px;
+    font-weight: lighter;
+    line-height: 30px;
+    padding-left: 80px;
+    color: black;  
+}
+.iphone_card1 .card_links{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.iphone_card1 .card_links a{
+    font-size:22px;
+    text-decoration: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1472d0;
+    
+}
+
+/* card2 starts here*/
+.iphone_card2{
+    /* overflow:hidden; */
+    background-image:url(findastore.webp);
+  
+   background-size: 100%;
+   background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    background-color:#fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 15px;
+   padding-top: 33px;
+
+}
+
+.iphone_card2 .card_heading{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:19px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 25px;
+    color: black;
+    padding-left: 20px;
+    
+}
+.iphone_card2 .card_tarif{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:22px;
+    font-style: normal;
+    width: 400px;
+    font-weight: lighter;
+    line-height: 30px;
+    padding-left: 80px;
+    color: black;  
+}
+.iphone_card2 .card_links{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.iphone_card2 .card_links a{
+    font-size:22px;
+    text-decoration: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1472d0;
+    
+}
+
+
+/* card3 starts here*/
+.iphone_card3{
+    overflow:hidden;
+    background-image:url(iwatch1.png);
+   
+
+    background-size:100%;
+   background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 15px;
+   padding-top: 33px;
+
+}
+
+.iphone_card3 .card_heading{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:19px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 25px;
+    color: white;
+    padding-right: 25px;
+    
+}
+.iphone_card3 .card_tarif{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:22px;
+    font-style: normal;
+    width: 550px;
+    font-weight: lighter;
+    line-height: 30px;
+    padding-left: 140px;
+    color: white;  
+}
+.iphone_card3 .card_links{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.iphone_card3 .card_links a{
+    font-size:22px;
+    text-decoration: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1472d0;
+    
+}
+
+/* card4 starts here*/
+.iphone_card4{
+    overflow:hidden;
+    background-image:url(airpodspro.jpg);
+    background-size:90%;
+    
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    background-color:#f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 15px;
+   padding-top: 33px;
+
+}
+
+
+.iphone_card4 .card_heading{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:19px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 25px;
+    color: white;
+    padding-right: 25px;
+    
+}
+.iphone_card4 .card_tarif{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:22px;
+    font-style: normal;
+    width: 550px;
+    font-weight: lighter;
+    line-height: 30px;
+    padding-left: 120px;
+    color: white;  
+}
+.iphone_card4 .card_links{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.iphone_card4 .card_links a{
+    font-size:22px;
+    text-decoration: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1472d0;
+    
+}
+
+/* card5 starts here*/
+.iphone_card5{
+    overflow:hidden;
+    background-image:url(applecard.jpg);
+   
+    background-size:80%;
+   background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 15px;
+   padding-top: 33px;
+
+}
+
+.iphone_card5 .card_heading{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:19px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 25px;
+    color: black;
+    padding-right: 25px;
+    
+    
+}
+.iphone_card5 .card_tarif{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:22px;
+    font-style: normal;
+    width: 400px;
+    text-align:center ;
+    font-weight: lighter;
+    line-height: 30px;
+    padding-left: 10px;
+    color: black;  
+}
+.iphone_card5 .card_links{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-right: 20px;
+}
+
+.iphone_card5 .card_links a{
+    font-size:22px;
+    text-decoration: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1472d0;
+    
+}
+
+.panel2{
+    height: 573px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    margin-top: 10px ;
+    
+}
+
+/* card6 starts here*/
+.iphone_card6{
+    overflow:hidden;
+    background-image:url(enviornment.jpg);
+
+    background-size:100%;
+   background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    background-color:#ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   gap: 15px;
+   padding-top: 33px;
+
+}
+
+.iphone_card6 .card_heading{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:19px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 25px;
+    color: black;
+    padding-right: 25px;
+    
+}
+.iphone_card6 .card_tarif{
+    font-family: "SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size:22px;
+    font-style: normal;
+    width: 450px;
+    text-align: center;
+    font-weight: lighter;
+    line-height: 30px;
+    padding-left: 40px;
+    color: black;  
+}
+.iphone_card6 .card_links{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.iphone_card6 .card_links a{
+    font-size:20px;
+    text-decoration: none;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #1472d0;
+    padding-left: 10px;
+    width: 570px;
+    
+}
+
+.panel3{
+    height: 573px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px ;
+    
+}
+
+.box{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ededed3b;
+}
+.idc{
+    
+    width: 70%;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #ededed3b;
+  font-family:"SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+   
+
+}
+
+.idc p{
+    text-align: start;
+    color: #69696b;
+}
+
+.footerbox{
+    width: 70%;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  font-family:"SF Pro Text", "SF Pro Icon","Helvetica Neue", Arial, Helvetica, sans-serif;
+    background-color: #ededed3b;
+
+}
+.footerbox #copyright{
+    text-align: start;
+    color: #69696b;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.footerbox #links{
+    text-align: start;
+    color: #69696b;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+.footerbox #country{
+    text-align: start;
+    color: #69696b;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.submenu{
+    width: 100%;
+   
+    /* background-color: pink; */
+    position: absolute;
+    top:-100vh;
+    z-index: 999;
+    transition: all 0.3s ease-in-out;
+    pointer-events: none;
+    position: fixed;
+
+  
+    
+}
+
+
+.submenu-top{
+    width: 100%;
+    height: 50vh;
+  
+    display: flex;
+    flex-direction: column ;
+    padding: 50px 90px;
+    gap: 3.5vh;
+
+    background-image: url(background.png);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   
+
+   
+
+
+}
+
+
+
+.submenu-top a{
+    text-decoration: none;
+    font-size: 2.5vh;
+    color: #fff;
+   
+
+
+}
+
+.submenu-bottom{
+    width: 100%;
+    height: 45vh;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+opacity: 0;
+}
+
+
+
+/* swipper CSS */
+.sliderpart{
+    width: 100%;
+    height: 70vh;
+    margin-top: 2vh;
+    background-color: black;
+}
+
+.swiper{
+    width: 100%;
+    height: 100%;
+    background: black;
+  }
+
+  .swiper-slide{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+   
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.swiper-slide{
+    width: 90%;
+    background-position: center;
+    background-size: cover;
+}
+.swiper1{
+background-image: url(slider1.jpg);
+}
+.swiper2{
+    background-image: url(slider2.jpg);
+}
+.swiper3{
+    background-image: url(slider3.jpg);
+}
+.swiper4{
+    background-image: url(slider4.jpg);
+}
+.swiper5{
+    background-image: url(slider5.jpg);
+}
+.swiper6{
+    background-image: url(slider6.jpg);
+}
